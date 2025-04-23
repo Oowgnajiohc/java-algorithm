@@ -49,8 +49,7 @@ class Album extends Item {
         this.artist = artist;
     }
 
-
-
+    
     @Override
     public void print() {
         super.print();
