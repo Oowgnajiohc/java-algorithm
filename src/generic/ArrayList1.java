@@ -7,10 +7,12 @@ public class ArrayList1 {
         ArrayList<String> cart = new ArrayList<String>();
         cart.add("Gibson");
         cart.add("PRS");
-        System.out.println(cart.get(0));
-        System.out.println(cart.get(1));
-        cart.remove(1);
-        System.out.println(cart.size()); //몇개가 남았는지
-        System.out.println(cart.isEmpty());
+        cart.add(1,"fender");
+        cart.add(2,"jackson");
+        cart.remove(0);
+
+        for(String str : cart) {
+            System.out.println(str);
+        }
     }
 }
