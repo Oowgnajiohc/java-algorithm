@@ -10,5 +10,6 @@ public class HashSet1 {
         members.add("오모리");//중복 저장 불가
 
         System.out.println(members);
+
     }
 }
